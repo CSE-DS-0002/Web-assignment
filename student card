@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+       body {
+      font-family: Arial, sans-serif;
+      background-color: #947794;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 70vh;
+      margin: 50px;
+    }
+    .container {
+      display: flex;
+      gap: 20px;
+    }
+    .card {
+      background-color: #c3f1e8;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 200px;
+      text-align: center;
+    }
+    .avatar {
+      background-color: #131513;
+      color: white;
+      border-radius: 50%;
+      width: 80px;
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 30px;
+      margin: 0 auto 10px auto;
+    }
+    .name {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .detail {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 5px;
+    }
+</style>
+</head>
+<body>
+    <h2>S
+        tudent Profile Cards</h2> 
+  <div class="container"> 
+    <div class="card"> 
+      <div class="avatar">AR</div> 
+      <div class="name">Aryan Singh</div> 
+      <div class="detail">B.Tech - CSE</div> 
+      <div class="detail">Roll No: 2025b15410004</div> 
+      <div class="detail">1st Year</div> 
+    </div> 
+    <div class="card"> 
+      <div class="avatar">AY</div> 
+      <div class="name">Akshansh Yadav</div> 
+      <div class="detail">B.Tech - IT</div> 
+      <div class="detail">Roll No: 2025b15410763</div> 
+      <div class="detail">1st Year</div> 
+    </div> 
+    <div class="card"> 
+      <div class="avatar">AP</div> 
+      <div class="name">Aryan Pratap</div> 
+      <div class="detail">B.Tech - ECE</div> 
+      <div class="detail">Roll No: 2025b15410020</div> 
+      <div class="detail">1st Year</div> 
+    </div> 
+</body>
+</html>
